@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'D:\\node\\node.exe',
+1 verbose cli   'D:\\node\\node\\node_global\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'vue-lazyload'
+1 verbose cli ]
+2 info using npm@6.13.2
+3 info using node@v12.13.1
+4 verbose npm-session d81626e2689186ba
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 verbose stack Error: kill ENOSYS
+7 verbose stack     at process.kill (internal/process/per_thread.js:189:13)
+7 verbose stack     at process.listener (D:\node\node\node_global\node_modules\npm\node_modules\signal-exit\index.js:95:15)
+7 verbose stack     at process.emit (events.js:210:5)
+8 verbose cwd F:\AAA\前端\第10阶段：vue.js\19-项目实战\mall
+9 verbose Windows_NT 10.0.17763
+10 verbose argv "D:\\node\\node.exe" "D:\\node\\node\\node_global\\node_modules\\npm\\bin\\npm-cli.js" "install" "vue-lazyload"
+11 verbose node v12.13.1
+12 verbose npm  v6.13.2
+13 error code ENOSYS
+14 error syscall kill
+15 error errno ENOSYS
+16 error kill ENOSYS
+17 verbose exit [ 1, true ]
